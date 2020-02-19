@@ -32,6 +32,12 @@
 
 ### 安裝 command line 工具
 
+在 Terminal 輸入 `xcode-select --install` 後按下 Enter 鍵，（需要等較久時間）就能完成安裝。
+
+若上述指令碼無法成功安裝（看到 Terminal 出現錯誤訊息，請到 [Apple 開發者網站](http://developer.apple.com/downloads/index.action)下載 Xcode 最新版本）
+
+**注意：絕對不要從 App Store 下載 Xcode**
+
 ### 安裝 Homebrew
 
 Homebrew 是專門管理安裝套件的軟體，讓人能有效率地安裝開發用套件。
