@@ -116,7 +116,7 @@ Mac 以內建 Python 2.7，但 Python 已宣佈日後不再支援 2.7 版本，�
 
 ### 07 開發環境的其他設定
 
-### 08 安裝 iTerm2 取代內建的 Terminal
+#### 07-1 安裝 iTerm2 取代內建的 Terminal
 
 這不是必要步驟，若仍想使用 Terminal，就可以跳過。
 
@@ -126,7 +126,7 @@ Mac 以內建 Python 2.7，但 Python 已宣佈日後不再支援 2.7 版本，�
 
     `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
-### 09 安裝程式碼編輯器
+#### 07-2 安裝程式碼編輯器
 
 推薦免費、使用社群活躍，且很多人都在使用的兩種程式碼編輯器給大家參考，
 
