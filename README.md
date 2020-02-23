@@ -30,7 +30,7 @@
   
 ---
 
-### 01 安裝 command line 工具
+## 01 安裝 command line 工具
 
 在 Terminal 輸入 `xcode-select --install` 後按下 Enter 鍵，（需要等較久時間）就能完成安裝。
 
@@ -38,7 +38,7 @@
 
 **注意：絕對不要從 App Store 下載 Xcode**
 
-### 02 安裝 Homebrew
+## 02 安裝 Homebrew
 
 Homebrew 是專門管理安裝套件的軟體，讓人能有效率地安裝開發用套件。
 
@@ -58,7 +58,7 @@ Homebrew 是專門管理安裝套件的軟體，讓人能有效率地安裝開�
     
     > 補充：在 Terminal 內輸入`brew update` 就能更新 Homebrew。
 
-### 03 安裝 Python3 (以及虛擬環境 virtualenv)
+## 03 安裝 Python3 (以及虛擬環境 virtualenv)
 
 Mac 以內建 Python 2.7，但 Python 已宣佈日後不再支援 2.7 版本，所以建議都升級到 Python 3.x。
 
@@ -69,7 +69,7 @@ Mac 以內建 Python 2.7，但 Python 已宣佈日後不再支援 2.7 版本，�
 
 > 補充：virtualenv的使用方式，可以參考我之前記下的[虛擬環境操作手冊](https://clockwork.substack.com/p/51e)
 
-### 04 安裝 Node.js
+## 04 安裝 Node.js
 
 這裡會帶大家用 nvm 管理 Node.js，因為 Node.js 的版本管理問題常讓人傷腦筋，因此以 nvm 方便安裝與刪除各種版本的 Node.js。
 
@@ -90,7 +90,7 @@ Mac 以內建 Python 2.7，但 Python 已宣佈日後不再支援 2.7 版本，�
 
 > 補充：日後若要更新 Node.js，輸入 `nvm install node --reinstall-packages-from=node` 即可。
 
-### 05 設定 git 與 GitHub
+## 05 設定 git 與 GitHub
 
 1. 建立一個名為 .gitconfig 檔案
 
@@ -110,13 +110,13 @@ Mac 以內建 Python 2.7，但 Python 已宣佈日後不再支援 2.7 版本，�
     user.email=xxx@mail.tw
     ```
 
-### 06 安裝 Postgres 與 PostGIS
+## 06 安裝 Postgres 與 PostGIS
 
 這兩者在做數據新聞時（地圖、視覺化等）就會用到，到 [Postgres.app 網站](https://postgresapp.com/) 下載即可。
 
-### 07 開發環境的其他設定
+## 07 開發環境的其他設定
 
-#### 07-1 安裝 iTerm2 取代內建的 Terminal
+### 07-1 安裝 iTerm2 取代內建的 Terminal
 
 這不是必要步驟，若仍想使用 Terminal，就可以跳過。
 
@@ -126,7 +126,7 @@ Mac 以內建 Python 2.7，但 Python 已宣佈日後不再支援 2.7 版本，�
 
     `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
-#### 07-2 安裝程式碼編輯器
+### 07-2 安裝程式碼編輯器
 
 推薦免費、使用社群活躍，且很多人都在使用的兩種程式碼編輯器給大家參考，
 
