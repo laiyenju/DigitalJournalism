@@ -134,7 +134,7 @@ Mac 以內建 Python 2.7，但 Python 已宣佈日後不再支援 2.7 版本，�
 
 ### 07-2 安裝程式碼編輯器
 
-推薦免費、使用社群活躍，且很多人都在使用的兩種程式碼編輯器給大家參考，
+推薦免費、使用社群活躍，常見的兩種程式碼編輯器給大家參考
 
 - [Atom](https://atom.io/) 由 GitHub 開發的。
 - [Sublime Text](https://www.sublimetext.com/)，我自己也在用。
